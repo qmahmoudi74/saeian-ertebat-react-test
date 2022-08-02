@@ -1,0 +1,40 @@
+.inputBoxWrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.addButton {
+  border: none;
+  border-radius: 0.5rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  font-weight: bold;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.addButton:hover {
+  background-color: lightgray;
+}
+
+.addButton:active {
+  background-color: gray;
+}
+
+.inputBox {
+  border: 1px solid;
+  border-color: lightgray;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  transition-property: border-color;
+  transition-duration: 0.3s;
+}
+
+.inputBox:focus {
+  border-color: gray;
+}

@@ -1,0 +1,10 @@
+.todosWrapper {
+  max-width: 30em;
+  margin-inline: auto;
+  margin-block: 5rem;
+  padding: 1.5rem;
+  border: 1px solid;
+  min-height: 30rem;
+  border-radius: 0.5rem;
+  border-color: #eee;
+}
